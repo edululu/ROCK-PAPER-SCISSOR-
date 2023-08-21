@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    height: 10vh;
+    background-color: violet;
+}
+.main-container{
+    display: flex;
+}
+.main-container .score{
+    width: 200px;
+    margin: 20px 50px;
+}
+.score .score-counter{
+    background: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+#cc, #uc{
+    border: none;
+}
+.score-counter span , .score-counter h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgb(41, 40, 40);
+    height: 220px;
+}
+.btn button{
+    font-size: 30px;
+    color: rgb(187, 146, 69);
+    background: black;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+.choice button{
+    margin: 0 20px;
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 30px;
+    color: rgb(187, 146, 69);
+}
+
+.score-counter, .btn{
+    height: 30vh;
+}
+
+#restart{
+    height: 50px;
+    width: 87vw;
+    font-size: 30px;
+    cursor: pointer;
+    background: rgb(41, 40, 40);
+    color: rgb(187, 146, 69);
+    border: none;
+}
+
+
+#final{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    display: none;
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
